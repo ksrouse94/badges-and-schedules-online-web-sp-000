@@ -6,7 +6,8 @@ end
 def batch_badge_creator(array)
   badge_message = []
   array.each do |name|
-    puts "Hello, my name is #{name}."
+    message = "Hello, my name is #{name}."
+    badge_message << message
   end  
   return badge_message
 end  
