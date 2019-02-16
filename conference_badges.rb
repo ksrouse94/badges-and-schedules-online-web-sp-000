@@ -26,4 +26,9 @@ def printer(array)
   new.each do |message|
     puts message
   end
+  
+  new_array = assign_rooms(array)
+  new_array.each do |assignment|
+    puts assignment
+  end  
 end  
